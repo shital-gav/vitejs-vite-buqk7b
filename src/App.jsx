@@ -10,32 +10,21 @@ function App() {
 
 
   return (
-    <>
+    <div className="w-full mx-auto p-4">
+   
       <h1 className="text-3xl font-bold">FraudWatch India</h1>
       <p className=""> Tracking and Reporting Scams Nationwide</p>
       <br/>
       <div>
+        
       <TrackerTable data={scamData} /> 
       </div>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          
-        </p>
-      </div>
+      
       <p className="read-the-docs right">
-        FraudWatch India is your centralized platform to monitor, report, and
-        stay informed about fraudulent activities across the country. Our
-        community-driven approach aims to collect and share information on
-        scams, empowering individuals to safeguard themselves and others from
-        falling victim to deceptive practices. Report suspicious activities and
-        explore resources to enhance awareness and prevent fraud. Join us in
-        building a safer environment by sharing and staying updated on the
-        latest scams in India.
+      FraudWatch India is your centralized platform to monitor, report, and stay informed about fraudulent activities across the country. 
       </p>
-    </>
+      
+    </div>
   );
 }
 
